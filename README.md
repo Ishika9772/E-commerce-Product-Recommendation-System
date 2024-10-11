@@ -1,2 +1,2 @@
-# E-commerce Product Recommendation System
+This E-commerce Product Recommendation System allows users to browse products, view details, and receive personalized recommendations based on their activity. The platform dynamically suggests related products using real-time data filtering, ensuring a tailored shopping experience. The interface includes responsive layouts, interactive hover effects, and a professional color scheme for a seamless user experience. This system enhances user engagement with dynamic product displays and efficient recommendation filtering.
  
