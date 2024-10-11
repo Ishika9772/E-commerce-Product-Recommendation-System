@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d6efd; /* Professional blue */
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin: 20px 0;
+    text-align: center;
+    color: #0d6efd; /* Heading color */
+  }
+  
+  .product-grid, .recommendation-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product, .recommendation {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product:hover, .recommendation:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product img, .recommendation img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #198754; /* Success green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #157347; /* Darker green for hover */
+  }
+  
+  @media (max-width: 768px) {
+    .product, .recommendation {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product, .recommendation {
+      width: 90%;
+    }
+  }
+  
